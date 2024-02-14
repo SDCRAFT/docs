@@ -1,0 +1,17 @@
+{
+  "name": "SDCRAFT-Official-Website",
+  "version": "1.0.0",
+  "description": "SDCRAFT Official Website",
+  "main": "index.js",
+  "author": "SDCRAFT",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3",
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "dev": "vuepress dev --temp .temp",
+    "build": "vuepress build"
+  }
+}
