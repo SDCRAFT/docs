@@ -11,15 +11,17 @@
 - [Official](https://www.minecraft.net/)
 - [LittleSkin](https://littleskin.cn/)
 
-**你可能需要 [配置 Yggdrasil 验证服务器](./yggdrasil)**
+::: tip
+你可能需要 [配置 Yggdrasil 验证服务器](./yggdrasil)
+:::
 
 ## 链接地址
 我们提供多条适用于 **Minecraft Java Edition** 的链接地址, 如无法链接请尝试下一条
-1. mc-ipv6.sdcraft.fun ***IPV6 Only***
-2. mc.sdcraft.fun
-3. mc-b0.sdcraft.fun
-4. mc-b1.sdcraft.fun
-5. mc-b2.sdcraft.fun
-6. mc-b3.sdcraft.fun
+1. `mc-ipv6.sdcraft.fun` ***IPV6 Only***
+2. `mc.sdcraft.fun`
+3. `mc-b0.sdcraft.fun`
+4. `mc-b1.sdcraft.fun`
+5. `mc-b2.sdcraft.fun`
+6. `mc-b3.sdcraft.fun`
 
 **请不要复制加粗字体**

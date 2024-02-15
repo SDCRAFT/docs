@@ -1410,6 +1410,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vuepress/plugin-search@npm:^2.0.0-rc.14":
+  version: 2.0.0-rc.14
+  resolution: "@vuepress/plugin-search@npm:2.0.0-rc.14"
+  dependencies:
+    chokidar: "npm:^3.6.0"
+    vue: "npm:^3.4.16"
+    vue-router: "npm:^4.2.5"
+  peerDependencies:
+    vuepress: 2.0.0-rc.7
+  checksum: 10c0/dc7daf7e304e8c5571dc9676e7b93f5af0a76fd2b3fae23ffa442453b1f015d1d56c7157ff89a223b67248ebea3a736c10cfb1451a2b407ff5126b3e3810b001
+  languageName: node
+  linkType: hard
+
 "@vuepress/plugin-seo@npm:2.0.0-rc.12":
   version: 2.0.0-rc.12
   resolution: "@vuepress/plugin-seo@npm:2.0.0-rc.12"
@@ -1573,6 +1586,7 @@ __metadata:
   resolution: "SDCRAFT-Official-Website@workspace:."
   dependencies:
     "@vuepress/bundler-vite": "npm:^2.0.0-rc.7"
+    "@vuepress/plugin-search": "npm:^2.0.0-rc.14"
     "@vuepress/theme-default": "npm:^2.0.0-rc.14"
     vuepress: "npm:^2.0.0-rc.7"
     vuepress-theme-hope: "npm:^2.0.0-rc.23"

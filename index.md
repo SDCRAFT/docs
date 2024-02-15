@@ -2,9 +2,12 @@
 home: true
 heroImage: /assets/img/logo.png
 heroText: SDCRAFT Docs
-actionText: Click me to view →
-actionLink: /guide/index
+actions:
+  - text: Let's Start!
+    icon: signs-post
+    link: /intro
+    type: primary
 features:
 - title: Heartalborada
-  details: 整活? 咬打火机算吗?
+  details: 整活? <del>咬打火机算吗?</del>
 ---

@@ -42,12 +42,19 @@ export default defineUserConfig({
 
                 },
             },
+            plugins: {
+                search: true,
+                mdEnhance: {
+                    figure: true,
+                    imgLazyload: true,
+                    imgMark: true,
+                    imgSize: true,
+                }
+            },
             displayFooter: true,
             footer: "MIT Licensed | Copyright © 2021-present SDCRAFT"
         }
     ),
     pagePatterns: ["**/*.md", "!**/*README.md", "!.vuepress", "!**/node_modules/**"],
-    bundler: viteBundler({
-        vuePluginOptions: {},
-    }),
+    bundler: viteBundler(),
 });
