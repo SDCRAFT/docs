@@ -4,19 +4,19 @@ import { hopeTheme } from "vuepress-theme-hope";
 export default defineUserConfig({
     title: "SDCRAFT Docs",
     description: "SDCRAFT Official Docs",
-    head: [['link', { rel: 'icon', href: '/assets/logo.png' }]],
+    head: [['link', { rel: 'icon', href: '/assets/img/logo.png' }]],
     theme: hopeTheme(
         {
             logo: "/assets/img/logo.png",
             repo: "SDCRAFT/docs",
             editLink: false,
-            navbar: [
-                { text: 'Home', link: '/' },
-                { text: 'Introduction', link: '/intro' },
-                { text: 'Guide', link: '/guide/' },
-            ],
             locales: {
                 '/': {
+                    navbar: [
+                        { text: 'Home', link: '/' },
+                        { text: 'Introduction', link: '/intro' },
+                        { text: 'Guide', link: '/guide/' },
+                    ],
                     selectLanguageName: '简体中文',
                     sidebar: [
                         {
@@ -29,7 +29,7 @@ export default defineUserConfig({
                         },
                         {
                             text: "Guide",
-                            link: '/guide',
+                            link: '/guide/',
                             collapsible: false,
                             children: [
                                 '/guide/joinus',
@@ -37,6 +37,10 @@ export default defineUserConfig({
                                 '/guide/yggdrasil',
                                 '/guide/recommend'
                             ]
+                        },
+                        {
+                            text: "Servers",
+                            link: '/server/'
                         }
                     ],
 
@@ -45,6 +49,7 @@ export default defineUserConfig({
             plugins: {
                 search: true,
                 mdEnhance: {
+                    tabs: true,
                     figure: true,
                     imgLazyload: true,
                     imgMark: true,

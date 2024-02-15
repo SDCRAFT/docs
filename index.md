@@ -8,6 +8,6 @@ actions:
     link: /intro
     type: primary
 features:
-- title: Heartalborada
+- title: heartalborada
   details: 整活? <del>咬打火机算吗?</del>
 ---
