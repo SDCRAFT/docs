@@ -1,0 +1,46 @@
+name: docs
+
+on:
+  # 每当 push 到 main 分支时触发部署
+  push:
+    branches: [main]
+  # 手动触发部署
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Yarn install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: set version stable
+
+      - name: Install Dependencies
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+
+      - name: Build VuePress site
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: .vuepress/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

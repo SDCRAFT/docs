@@ -6,9 +6,3 @@
 4. 点击确定, 进入账户列表, 点击如下元素<br>![Yggdrasil 02](/assets/img/guide/Yggdrasil02_zh-cn.png#width-half "Yggdrasil")
 5. 在如下界面填入你的注册时账号和密码, 并点击确定<br>![Yggdrasil 03](/assets/img/guide/Yggdrasil03_zh-cn.png#width-half "Yggdrasil")
 6. 选中你新配置的账户后, 即配置完成
-
-<style type="text/css">
-img[src*="#width-half"] {
-    width: 50%;
-}
-</style>

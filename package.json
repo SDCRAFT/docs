@@ -1,17 +1,20 @@
 {
   "name": "SDCRAFT-Official-Website",
   "version": "1.0.0",
-  "description": "SDCRAFT Official Website",
+  "description": "SDCRAFT Official Docs",
   "main": "index.js",
-  "author": "SDCRAFT",
+  "repository": "https://github.com/SDCRAFT/docs.git",
+  "author": "heartalborada <heartalborada@foxmail.com>",
   "license": "MIT",
+  "packageManager": "yarn@4.1.0",
   "devDependencies": {
-    "@types/node": "^20.11.17",
-    "typescript": "^5.3.3",
-    "vuepress": "^1.9.10"
+    "@vuepress/bundler-vite": "^2.0.0-rc.7",
+    "@vuepress/theme-default": "^2.0.0-rc.14",
+    "vuepress": "^2.0.0-rc.7",
+    "vuepress-theme-hope": "^2.0.0-rc.23"
   },
   "scripts": {
-    "dev": "vuepress dev --temp .temp",
-    "build": "vuepress build"
+    "dev": "vuepress dev -t .vuepress/.temp",
+    "build": "vuepress build -d .vuepress/dist"
   }
 }
