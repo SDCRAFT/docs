@@ -39,7 +39,7 @@ export default defineUserConfig({
                             ]
                         },
                         {
-                            text: "Servers",
+                            text: "Server",
                             link: '/server/'
                         }
                     ],
@@ -54,6 +54,7 @@ export default defineUserConfig({
                     imgLazyload: true,
                     imgMark: true,
                     imgSize: true,
+                    echarts: true,
                 }
             },
             displayFooter: true,

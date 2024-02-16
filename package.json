@@ -11,6 +11,7 @@
     "@vuepress/bundler-vite": "^2.0.0-rc.7",
     "@vuepress/plugin-search": "^2.0.0-rc.14",
     "@vuepress/theme-default": "^2.0.0-rc.14",
+    "echarts": "^5.4.3",
     "vuepress": "^2.0.0-rc.7",
     "vuepress-theme-hope": "^2.0.0-rc.23"
   },

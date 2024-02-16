@@ -17,14 +17,14 @@
 
 @tab 下载Java
 
-![dj](/assets/img/zh/guide/animation/j/DownloadJava.gif)
+![](/assets/img/zh/guide/animation/j/DownloadJava.gif)
 
 @tab 安装Java
 
-![ij](/assets/img/zh/guide/animation/j/InstallJava.gif)
+![](/assets/img/zh/guide/animation/j/InstallJava.gif)
 
 @tab 检查Java
 
-![cj](/assets/img/zh/guide/animation/j/CheckJava.gif)
+![](/assets/img/zh/guide/animation/j/CheckJava.gif)
 
 :::

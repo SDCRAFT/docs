@@ -12,14 +12,14 @@
 
 @tab 打开LittleSkin
 
-![dj](/assets/img/zh/guide/animation/y/OpenLittleskin.gif)
+![](/assets/img/zh/guide/animation/y/OpenLittleskin.gif)
 
 @tab 在HMCL中添加Yggdrasil登录API
 
-![ij](/assets/img/zh/guide/animation/y/AddYggdrasilAPI.gif)
+![](/assets/img/zh/guide/animation/y/AddYggdrasilAPI.gif)
 
 @tab 使用LittleSkin登录
 
-![cj](/assets/img/zh/guide/animation/y/LoginWithYggdrasilAPI.gif)
+![](/assets/img/zh/guide/animation/y/LoginWithYggdrasilAPI.gif)
 
 ::: 
