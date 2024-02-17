@@ -14,7 +14,7 @@
 
 1. 检查你是否安装**Mod Loader \[如Forge/Fabric\]**, 如未安装, 请跳转到 [安装MOD Loader](#安装mod-loader)
 2. 下载你所需的MOD
-3. 检查你是否打开版本隔离, 如是, 请跳转到**4.1.1**, 否则请跳转到**4.2.1**
+3. 检查你[是否打开版本隔离](#检查是否打开了版本隔离), 如是, 请跳转到 **4.1.1**, 否则请跳转到 **4.2.1**
 4. 添加MOD
     1. 开启版本隔离
         - 打开 `.minecraft` 文件夹, 然后打开 `versions` 文件夹. 找到你所安装的版本名称, 打开. 打开 `mods` 文件夹, 如没有, 创建一个, 把mod拖到里面就可以了
@@ -42,4 +42,22 @@
 
 :::
 
-## 咕咕咕
+## 检查是否打开了版本隔离
+
+### PCL 2
+
+1. 打开 `设置`
+2. 查看你在 `启动选项` -> `版本隔离` 的设置是否为 `隔离可安装 Mod 的版本` 或 `隔离可安装 Mod 的版本与非正式版` 或 `隔离所有版本`
+![PCL2](/assets/img/zh/guide/PCL2Isolated.png)
+
+### HMCL
+
+1. 打开 `设置`
+2. 查看你在 `全局游戏设置` -> `版本隔离` 的设置是否为 `各版本独立`
+![HMCLGlobal](/assets/img/zh/guide/HMCLIsolatedGlobal.png)
+3. 退出当前界面, 点击`游戏管理图标`
+![HMCLSingle1](/assets/img/zh/guide/HMCLIsolatedSingel1.png)
+4. 检查是否开启`游戏特定设置`, 如是, 请检查 `版本隔离` 的设置是否为 `各版本独立`
+![HMCLSingle2](/assets/img/zh/guide/HMCLIsolatedSingel2.png)
+
+### 有待补充
