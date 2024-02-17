@@ -109,7 +109,7 @@ option = {
             name: "System Load",
             type: 'line',
             connectNulls: true,
-            step: true,
+            smooth: true,
             showSymbol: false
         }
     ],

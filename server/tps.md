@@ -180,6 +180,7 @@ function update() {
                         smooth: true,
                         data: d,
                         showSymbol: false,
+                        step: true,
                     }
                 )
             }
