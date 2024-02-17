@@ -40,7 +40,12 @@ export default defineUserConfig({
                         },
                         {
                             text: "Server",
-                            link: '/server/'
+                            link: '/server/',
+                            collapsible: false,
+                            children: [
+                                '/server/stat',
+                                '/server/tps'
+                            ]
                         }
                     ],
 
@@ -55,7 +60,7 @@ export default defineUserConfig({
                     imgMark: true,
                     imgSize: true,
                     echarts: true,
-                }
+                },
             },
             displayFooter: true,
             footer: "MIT Licensed | Copyright © 2021-present SDCRAFT"
