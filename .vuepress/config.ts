@@ -16,6 +16,7 @@ export default defineUserConfig({
                         { text: 'Home', link: '/' },
                         { text: 'Introduction', link: '/intro' },
                         { text: 'Guide', link: '/guide/' },
+                        { text: 'Server', link: '/server/' }
                     ],
                     selectLanguageName: '简体中文',
                     sidebar: [
@@ -35,6 +36,7 @@ export default defineUserConfig({
                                 '/guide/joinus',
                                 '/guide/install',
                                 '/guide/yggdrasil',
+                                '/guide/installExternal',
                                 '/guide/recommend'
                             ]
                         },
@@ -44,7 +46,7 @@ export default defineUserConfig({
                             collapsible: false,
                             children: [
                                 '/server/stat',
-                                '/server/tps'
+                                '/server/subStat'
                             ]
                         }
                     ],
