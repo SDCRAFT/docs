@@ -151,7 +151,7 @@ option = {
         type: 'time',
     },
     yAxis: {
-        name: 'MSPT',
+        name: 'Count',
         type: 'value',
     },
     series: [],
