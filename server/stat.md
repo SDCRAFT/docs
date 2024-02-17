@@ -26,12 +26,12 @@ option = {
     },
     series: [
         {
-            name: "CPU",
+            name: "CPU Usage",
             type: 'line',
             smooth: true
         },
         {
-            name: "Memory",
+            name: "Memory Usage",
             type: 'line',
             smooth: true
         }
@@ -47,7 +47,7 @@ function update() {
             for(var k in json['data']['result'][0]['values']) {
                 var obj = json['data']['result'][0]['values'][k];
                 mem.push([
-                    obj[0]*1000, obj[1]*100, obj[1]
+                    obj[0]*1000, 100-obj[1]*100, obj[1]
                 ]);
             }
             fetch(`https://data.loliurl.club/api/v1/query_range?query=avg%20by(ip)(irate(node_cpu_seconds_total{mode=~"sytem|user|iowait|irq|softirq|nice|steal|guest"}[1m]))&start=${ts-150}&end=${ts}&step=15s`)
