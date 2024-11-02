@@ -40,7 +40,7 @@ option = {
 
 function update() {
     var ts = Math.round(new Date().getTime()/1000);
-    fetch(`https://data.loliurl.club/api/v1/query_range?query=node_memory_MemAvailable_bytes/node_memory_MemTotal_bytes&start=${ts-150}&end=${ts}&step=15s`)
+    fetch(`https://data.sdcraft.fun/api/v1/query_range?query=node_memory_MemAvailable_bytes/node_memory_MemTotal_bytes&start=${ts-150}&end=${ts}&step=15s`)
         .then((response) => response.json())
         .then((json) => {
             let mem = new Array();
@@ -50,7 +50,7 @@ function update() {
                     obj[0]*1000, 100-obj[1]*100, obj[1]
                 ]);
             }
-            fetch(`https://data.loliurl.club/api/v1/query_range?query=avg%20by(ip)(irate(node_cpu_seconds_total{mode=~"sytem|user|iowait|irq|softirq|nice|steal|guest"}[1m]))&start=${ts-150}&end=${ts}&step=15s`)
+            fetch(`https://data.sdcraft.fun/api/v1/query_range?query=avg%20by(ip)(irate(node_cpu_seconds_total{mode=~"sytem|user|iowait|irq|softirq|nice|steal|guest"}[1m]))&start=${ts-150}&end=${ts}&step=15s`)
             .then((response) => response.json())
             .then((json) => {
                 let cpu = new Array();
@@ -118,7 +118,7 @@ option = {
 
 function update() {
     var ts = Math.round(new Date().getTime()/1000);
-    fetch(`https://data.loliurl.club/api/v1/query_range?query=node_load1&start=${ts-60*60*24*30}&end=${ts}&step=5m`)
+    fetch(`https://data.sdcraft.fun/api/v1/query_range?query=node_load1&start=${ts-60*60*24*30}&end=${ts}&step=5m`)
         .then((response) => response.json())
         .then((json) => {
             let load = new Array();
@@ -175,7 +175,7 @@ option = {
 
 function update() {
     var ts = Math.round(new Date().getTime()/1000);
-    fetch(`https://data.loliurl.club/api/v1/query_range?query=node_filesystem_free_bytes/node_filesystem_size_bytes&start=${ts-60*60*24*30}&end=${ts}&step=5m`)
+    fetch(`https://data.sdcraft.fun/api/v1/query_range?query=node_filesystem_free_bytes/node_filesystem_size_bytes&start=${ts-60*60*24*30}&end=${ts}&step=5m`)
         .then((response) => response.json())
         .then((json) => {
             let series  = new Array();
